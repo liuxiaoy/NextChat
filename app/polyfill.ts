@@ -1,3 +1,4 @@
+import "web-streams-polyfill/polyfill";
 declare global {
   interface Array<T> {
     at(index: number): T | undefined;
